@@ -1,0 +1,95 @@
+EMP AND DEPT TABLE: (SCOTT)
+1.WRITE A QUERY TO DISPLAY ALL THE DETAILS FROM THE EMPLOYEE 
+TABLE.
+	select *
+	from emp;
+2.WAQTD NAMES OF ALL THE EMPLOYEES.
+	select ENAME
+	FROM EMP;
+3.WAQTD NAME AND SALARY GIVEN TO ALL THE EMPLOYEES.
+	SELECT ENAME,SAL
+	FROM EMP;
+4.WAQTD NAME AND COMMISSION GIVEN TO ALL THE EMPLOYEES.
+	SELECT ENAME, COMM
+	FROM EMP;
+5.WAQTD EMPLOYEE ID AND DEPARTMENT NUMBER OF ALL 
+THE EMPLOYEES IN EMP TABLE.
+	SELECT EMPNO, DEPTNO
+	FROM EMP;
+6.WAQTD ENAME AND HIREDATE OF ALL THE EMPLOYEES . 
+	SELECT ENAME, HIREDATE
+	FROM EMP;
+7.WAQTD NAME AND DESIGNATION OF ALL THE EMPLPOYEES .
+	SELECT ENAME,JOB
+	FROM EMP;
+8.WAQTD NAME , JOB AND SALARY GIVEN ALL THE EMPLOYEES. 
+	SELECT ENAME,JOB,SAL
+	FROM EMP;
+9.WAQTD DNAMES PRESENT IN DEPARTMENT TABLE.
+	SELECT DNAME
+	FROM DEPT;
+10.WAQTD DNAME AND LOCATION PRESENT IN DEPT TABLE.
+	select dname, Loc
+	from dept;
+HR SCHEMA
+1. Display the employee ID and first name of all employees.
+	select EMPLOYEE_ID,FIRST_NAME
+	from employees;
+2. Show the last name and hire date of all employees.
+	select LAST_NAME,HIRE_DATE
+	from employees;
+3. List the job ID and salary for all employees.
+	select JOB_ID,SALARY
+	from employees;
+4. Display the email and phone number of all employees.
+	select EMAIL,PHONE_NUMBER
+	from employees;
+5. Show the department name and location ID of all departments.
+	 SELECT JOB_ID,DEPARTMENT_ID
+  	 FROM EMPLOYEES;
+6. Retrieve the employee ID, first name, and last name of all employees.
+	select EMPLOYEE_ID,FIRST_NAME,LAST_NAME
+	FROM EMPLOYEES;
+7. Show the job title and minimum salary from the jobs table.
+	SELECT job_id, min_salary
+	FROM HR.jobs;
+	
+8. List the commission percentage and salary of all employees.
+	SELECT COMMISSION_PCT , SALARY
+	FROM EMPLOYEES;
+9. Display the department name and manager ID for all departments.
+	SELECT DEPARTMENT_NAME,MANAGER_ID
+	FROM EMPLOYEES;
+10. Retrieve the first name and job ID of all employees.
+	SELECT FIRST_NAME,JOB_ID
+	FROM EMPLOYEES;
+11. Show the job ID and maximum salary from the jobs table.
+	SELECT job_id, max_salary
+	FROM HR.jobs;
+12. List the department ID and department name from the departments table.
+	SELECT department_id, department_name
+	FROM HR.departments;
+13. Display the employee ID and department ID for all employees.
+	SELECT EMPLOYEE_ID,DEPARTMENT_ID
+	FROM EMPLOYEES;
+14. Show the city and state province 
+	SELECT city, state_province
+	FROM HR.locations;
+15. List the employee ID and start date 
+	SELECT EMPLOYEE_ID,HIRE_DATE
+	FROM EMPLOYEES;
+16. Retrieve the first name, last name, and email of all employees.
+	SELECT FIRST_NAME,LAST_NAME,EMAIL
+	FROM EMPLOYEES;
+17. Display the job title and department ID of all employees.
+	SELECT JOB_ID,DEPARTMENT_ID
+	FROM EMPLOYEES;
+18. Show the department ID and location ID 
+	SELECT DEPARTMENT_ID,LOCATION_ID
+	FROM HR.LOCATIONS;
+19. List the job ID and job title 
+	SELECT JOB_ID, JOB_TITLE
+FROM HR.JOBS;
+20. Retrieve the location ID and city name
+	SELECT LOCATION_ID, CITY
+FROM HR.LOCATIONS;
